@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+/*  Color i will use them */
+/*
+    #4A707A
+    #7697A0
+    #94B0B7
+    #C2C8C5
+    #DDDDDA
+ */
+body {
+  background-image: url("img/cover2.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Navigation Bar */
+.nav {
+  background-color: #4a707a;
+  width: 50%;
+  margin: auto;
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 13px;
+  border: #4a707a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: #f3f3f3;
+  margin-right: 5%;
+  margin-left: 1%;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.right {
+  float: right;
+}
+
+.nav a:hover {
+  opacity: 0.75;
+}
+
+.c {
+  width: 50%;
+  margin: auto;
+  background-color: #ddddda;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.myform .sbtn {
+  text-align: center;
+}
+.myform .sbtn button {
+  font-size: large;
+  margin: 0px 20px 20px 20px;
+}
+.myform .sbtn button:hover {
+  cursor: pointer;
+  font-size: large;
+}
+.f1 {
+  margin: auto;
+}
+.t1 {
+  margin: auto;
+}
+.t1 tr td {
+  text-align: left;
+  padding: 5px;
+}
+
+.country1,
+.country2 {
+  width: 70%;
+}
+
+.btn-f1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-f1 button {
+  font-size: large;
+  font-weight: 400;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.btn-f2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.t2 {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+.t2 td p {
+  font-size: x-small;
+  color: #5d5d5d;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+}
